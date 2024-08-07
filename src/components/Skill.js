@@ -11,7 +11,7 @@ import github from "../assets/github.png";
 
 import tailwind from "../assets/tailwind.png";
 
-function Experience() {
+function Skill() {
   const tech = [
     {
       id: 1,
@@ -64,11 +64,11 @@ function Experience() {
   ];
 
   return (
-    <div name="experiecne" className="bg-gray-900 w-full">
+    <div name="Skill" className="bg-gray-900 w-full">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white">
         <div>
           <p className="text-4xl font-bolo border-b-4 border-gray-500 p-2 inline ">
-            Experience
+          Skill
           </p>
           <p className="py-6">these are the technologies I've word with</p>
         </div>
@@ -93,4 +93,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Skill;

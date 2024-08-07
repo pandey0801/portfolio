@@ -2,9 +2,12 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home"
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contanct from "./components/Contanct";
+import Skill from "./components/Skill"
+import Testimonial from "./components/Testimonial";
+
+
 
 function App() {
   return (
@@ -13,8 +16,9 @@ function App() {
   <NavBar></NavBar> 
   <Home></Home>
   <About/>
-  <Portfolio/>
   <Experience/>
+<Testimonial/>
+  <Skill/>
   <Contanct/>
   <SocialLinks></SocialLinks>
 

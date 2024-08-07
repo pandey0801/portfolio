@@ -16,12 +16,15 @@ function NavBar() {
     },
     {
       id:3,
-      link:'Portfolio',
+      link:'Experience',
     },
-
     {
       id:4,
-      link: 'experiecne',
+      link:'Testimonial',
+    },
+    {
+      id:5,
+      link:'Skill'
     },
     {
       id:1,
@@ -34,21 +37,6 @@ function NavBar() {
       <div>
         <h1 className='text-5xl font-signature ml-2'>Vinay</h1>
       </div>
-
-
-      {/* <ul className='hidden md:flex'>
-        {links.map(({id , link})=>(
-        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105'>{link}
-
-
-<Link to={link} smooth duration={500}>
-              {link}
-            </Link>
-
-        </li>
-         ))}
-         
-      </ul> */}
 
 <ul className='hidden md:flex'>
         {links.map(({ id, link }) => (
@@ -68,7 +56,11 @@ function NavBar() {
          {nav && (
             <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-800 text-gray-500'>
             {links.map(({id , link})=>(
-            <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>{link}
+            <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+               <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>
+              {link}
+            </Link>
+
             </li>
              ))}
     
@@ -82,3 +74,5 @@ function NavBar() {
 }
 
 export default NavBar
+
+
