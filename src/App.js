@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Contanct from "./components/Contanct";
 import Skill from "./components/Skill"
 import Testimonial from "./components/Testimonial";
+import Achievements from "./components/Achievements";
 
 
 
@@ -18,6 +19,7 @@ function App() {
   <About/>
   <Experience/>
 <Testimonial/>
+<Achievements/>
   <Skill/>
   <Contanct/>
   <SocialLinks></SocialLinks>
