@@ -13,7 +13,6 @@ import Achievements from "./components/Achievements";
 function App() {
   return (
   <>
-  {/* <h1 className="font-signature text-4xl font-bold">hello</h1> */}
   <NavBar></NavBar> 
   <Home></Home>
   <About/>
