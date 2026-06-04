@@ -7,7 +7,8 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png" ;
+import node from "../assets/node.png";
+import prisma from "../assets/prisma.png";
 
 function Skill() {
   const tech = [
@@ -59,6 +60,12 @@ function Skill() {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: prisma,
+      title: "Prisma ORM",
+      style: "shadow-blue-400",
+    }
   ];
 
   return (

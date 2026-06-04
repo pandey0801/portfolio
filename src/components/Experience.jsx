@@ -13,7 +13,7 @@
 //         </div>
 
 //         {/* Nav Tech Experience */}
-        
+
 
 // <div className="flex flex-col sm:flex-row justify-center items-center ">
 //           <img src={nav} alt="edu" className="w-32 h-32 sm:w-48 sm:h-48 rounded-lg mb-6 sm:mb-0 sm:mr-6"></img>
@@ -93,6 +93,71 @@ function Experience() {
           <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-gray-500">
             Experience
           </p>
+        </div>
+
+        {/* Drishtee Foundation Experience */}
+        <div className="flex flex-col sm:flex-row justify-center items-center mt-12">
+          <img
+            src="https://drishtee.in/wp-content/uploads/2021/03/LOGO-New.png"
+            alt="Drishtee Foundation"
+            className="w-32 h-32 sm:w-48 sm:h-48 rounded-lg object-contain bg-white p-2 mb-6 sm:mb-0 sm:mr-6"
+          />
+
+          <div className="flex flex-col items-center sm:items-start">
+            <p className="text-xl sm:text-2xl mt-4 sm:mt-0 text-center sm:text-left">
+              <span className="text-2xl sm:text-3xl font-bold">
+                Drishtee Foundation
+              </span>
+              <br />
+
+              <span className="text-lg sm:text-xl font-semibold">
+                Full Stack Developer | March 2025 – Present | Delhi, India
+              </span>
+            </p>
+
+            <ul className="list-disc mt-4 text-sm sm:text-base pl-6 space-y-2">
+              <li>
+                Developing scalable full-stack web applications using React.js and
+                Remix for the frontend, and Node.js with Express.js for backend
+                services.
+              </li>
+
+              <li>
+                Managing database operations using Prisma ORM and SQL, including schema
+                design, query optimization, and migration handling.
+              </li>
+
+              <li>
+                Resolved Prisma migration failures and improved backend stability by
+                maintaining clean database version control and deployment workflows.
+              </li>
+
+              <li>
+                Developed the FCM (Firebase Cloud Messaging) service for real-time push
+                notifications, enabling admins to create and send notifications directly to users.
+              </li>
+
+              <li>
+                Developed the Miri Hub platform, including the storage management system,
+                payment processing system, and admin panel ,
+                streamlining operations and improving workflow efficiency.
+              </li>
+
+              <li>
+                Developed a product part coding system to uniquely identify products and
+                efficiently manage inventory and stock tracking across India.
+              </li>
+
+              <li>
+                Implemented SMS notification services and backend communication systems
+                for real-time user updates and alerts.
+              </li>
+              <li>
+                Collaborated with cross-functional teams using Git and followed modular,
+                maintainable coding practices for scalable application development.
+              </li>
+            </ul>
+          </div>
         </div>
 
         {/* CMS Computers Ltd Experience */}

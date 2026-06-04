@@ -9,18 +9,13 @@ function Home() {
       name="Home"
       className="h-screen w-full bg-gray-900"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 text-white md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 text-white md:flex-row ">
         <div className="flex flex-col justify-center h-full md:items-start items-center text-center md:text-left">
-          <h2 className="text-3xl sm:text-7xl font-bold text-white pt-10">
-            I'm a Front End Developer
+          <h2 className="text-3xl sm:text-7xl font-bold text-white pt-40">
+            I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-             Front-End Developer at CMS Computers, Delhi | Software Engineer at Nav Tech Electronics, Hyderabad | Experienced
-            Front-End Developer | B.Tech in CSE from AIT Bangalore | Proficient
-            in HTML, CSS, JavaScript (ES6+), and React.js | Skilled in Data
-            Science, Data Structures, and Customer Experience | Expertise in
-            Git, Responsive Design, Cross-Browser Compatibility, Debugging, and
-            Testing
+            Full Stack Developer with 2+ years of experience building scalable web applications. Skilled in React, Node.js, JavaScript, and modern frontend technologies. Previously worked at CMS Computers and Nav Tech Electronics. Strong in problem-solving, responsive design, and performance optimization.
           </p>
           <div>
             <Link
@@ -42,8 +37,8 @@ function Home() {
             alt="my profile"
             className="rounded-2xl w-2/3 md:w-full max-w-xs"
           />
-        </div> 
-       </div>
+        </div>
+      </div>
     </div>
   );
 }
